@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100vh;
+  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .form {
+  width: 550px;
+  height: 650px;
+  background-color: #fff;
+}
+.box .form .row1 {
+  display: flex;
+}
+.box .form .name {
+  display: flex;
+}
+.box .form .input1 {
+  position: relative;
+}
+.box .form .firstname {
+  position: absolute;
+  display: block;
+  top: 150px;
+  left: 475px;
+  font-size: 15px;
+  color: #a8a6a6;
+}
+.box .form .lastname {
+  position: absolute;
+  display: block;
+  left: 675px;
+  top: 150px;
+  font-size: 15px;
+  color: #a8a6a6;
+}
+
+.company {
+  display: flex;
+}
+.company input {
+  width: 320px;
+}
+
+.email {
+  display: flex;
+}
+.email input {
+  width: 345px;
+}
+
+.phone {
+  display: flex;
+}
+
+.subject {
+  display: flex;
+}
+.subject select {
+  background-color: #e4e0e0;
+  width: 380px;
+  height: 45px;
+  margin: 10px;
+}
+
+.form-main {
+  padding: 30px;
+  margin: 5px;
+}
+.form-main p {
+  margin: 25px;
+  font-weight: 900;
+}
+
+input {
+  margin: 20px;
+  background-color: #e4e0e0;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+}
+
+.form-top {
+  width: 100%;
+  height: 35px;
+}
+
+h2 {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.button button {
+  background-color: #fa3b4b;
+  display: inline-block;
+  color: #fff;
+  width: 180px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+}/*# sourceMappingURL=style.css.map */
